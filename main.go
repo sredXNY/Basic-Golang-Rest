@@ -136,7 +136,7 @@ func DeleteUser(c *gin.Context) {
 
 func InitDb() *gorm.DB {
     
-	db, err := gorm.Open("postgres", "host=199.168.136.134 user=mlsvowuser dbname=test_api sslmode=disable password=0112358")
+	db, err := gorm.Open("postgres", "host=xxx.xxx.xxx.xxx user=user dbname=test sslmode=disable password=ps")
   
     db.LogMode(true)
 	
